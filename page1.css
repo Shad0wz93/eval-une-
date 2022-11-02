@@ -1,0 +1,63 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    
+}
+.main{
+    
+    flex: 1;
+    background-color: red;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tete{
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+}
+
+
+
+.centre{
+    display: flex;
+    flex: 3;
+    flex-direction: column;
+    
+    
+}
+
+.af{
+    display: flex;
+
+    flex-direction: row;
+   
+     
+}
+
+header{
+    background-color: rgb(64, 242, 20);
+    height: 25vh;
+}
+aside{
+    background-color: beige;
+    flex: 1;
+    height: 75vh;
+    
+}
+footer{
+    background-color: rgb(64, 242, 20);
+    height: 25vh;
+}
+  
+article{
+    height: 50vh;
+}
