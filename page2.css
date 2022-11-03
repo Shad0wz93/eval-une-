@@ -1,63 +1,130 @@
-
-*{
-    margin: 0%;
-    padding: 0%;
-}
-
-body{
+body {
     display: flex;
-    
+    margin: 0px;
+    padding: 0px;
 }
-.main{
-    
-    flex: 1;
-    background-color: red;
-    color: white;
+
+.main {
+    background-color: lightcyan;
+    display: flex;
+    flex-direction: column;
+    flex: 4;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-
 }
 
-.tete{
+.text-article {
     display: flex;
     flex-direction: column;
-    flex: 3;
+    padding: 90px 0 0 8px;
+    color: red;
 }
 
-
-
-.centre{
-    display: flex;
-    flex: 3;
-    flex-direction: column;
+.aside {
     
-    
-}
-
-.af{
+    color: white;
     display: flex;
-
-    flex-direction: row;
-   
-     
-}
-
-header{
-    background-color: rgb(64, 242, 20);
-    height: 25vh;
-}
-aside{
-    background-color: beige;
     flex: 1;
-    height: 75vh;
+    background-color: blue;
+    padding: 0 0 0 10px;
+}
+
+.footer {
+    display: flex;
+    flex: 1;
+    background-color: greenyellow;
+    padding: 0 0 0 10px;
+}
+
+.header {
+    background-color: greenyellow;
+    display: flex;
+    flex: 1;
+    padding: 0 0 0 10px;
+}
+
+.container {
+    background-color: wheat;
+    display: flex;
+    flex: 6;
+}
+
+.Menu {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    background-color: red;
+    flex: 1;
+}
+
+.hover {
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.hover:hover {
+    background-color: rgb(255, 234, 234);
+    color: red;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    flex: 4;
+    background-color: white;
+}
+
+.n{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 70px 40px 0 0;
+}
+
+
+
+.u {
+    background-color: #c5a848ff;
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+}
+
+.d {
+    background-color: #ffff47;
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+}
+
+.boite-centre {
+    display: flex;
+    margin: -55px 0 -55px 0;
+}
+
+.t {
+    
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+    background-color: #a65d30;
+}
+
+.q {
+    display: flex;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
+    background-color: rgb(164, 163, 163);
     
 }
-footer{
-    background-color: rgb(64, 242, 20);
-    height: 25vh;
+
+.c {
+    
+    display: flex;
+    background-color: gray;
+    align-items: center;
+    padding: 30px 70px 30px 30px;
 }
-  
-article{
-    height: 50vh;
-}
+
