@@ -19,7 +19,7 @@ body {
     color: red;
 }
 
-.aside {
+.a{
     
     color: white;
     display: flex;
@@ -28,7 +28,7 @@ body {
     padding: 0 0 0 10px;
 }
 
-.footer {
+.f {
     display: flex;
     flex: 1;
     background-color: greenyellow;
